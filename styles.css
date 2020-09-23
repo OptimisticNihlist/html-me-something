@@ -17,7 +17,7 @@ header{
     font-size: x-small;
 }
 footer{
-    position: absolute;
+    float: bottom;
     bottom: 0;
     left: calc(50% - 100px);
     text-align: center;
@@ -31,26 +31,60 @@ footer{
     
     text-align: center;
 }
+#smalltext{
+    text-align: center;
+    font-size: xx-small;
+    margin: 47%;
+
+}
 p{
-    text-indent: 4ch;
     font: 12px, Arial, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
     color: goldenrod;
-    text-align: justify;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    border: 2px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-#republiclogo{
+#primal-rage{
+    word-wrap: normal;
     float: right;
-    width: 100px;
-    height: 100px;
-    margin-right: 10%;
-    margin-left: 1%;
+    margin: 10px;
+    width: 10%;
+    height: 10%;
+}
+#atari-jaguar-controller{
+    float: left;
+    width: 10%;
+    height: 14%;
+    margin: 10px;
+}
+#ps1collection{
+        float: right;
+        width: 20%;
+        height: 20%;
+        margin: 10px;   
+}
+#ilovevideogames{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin: 10px;   
 }
 #scrollbutton{
     position: absolute;
     bottom: 20px;
     left: auto;
     width: 50px;
+}
+#skyrim{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin: 10px;
 }
